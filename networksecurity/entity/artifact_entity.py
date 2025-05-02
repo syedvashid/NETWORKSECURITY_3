@@ -29,5 +29,5 @@ class classificationMetricArtifact:
 @dataclass
 class ModelTrainerArtifacts:
     trained_model_file_path:str
-    tain_metric_artifact:classificationMetricArtifact
+    train_metric_artifact:classificationMetricArtifact
     test_metric_artifact:classificationMetricArtifact
